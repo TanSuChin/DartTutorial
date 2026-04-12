@@ -9,6 +9,12 @@ void main() {
 
   print(firstName+''+lastName);
 
+  //stdout = standart output
+  //stdin = standard input
+  //writeln = print text to terminal
+  //.readLineSync = read input from user and return it
+  //String? = nullable string
+  //$name = string interpolation = insert value of name into string
   stdout.writeln('What is your name: ?');
   String? name = stdin.readLineSync();
   print('My name is $name');

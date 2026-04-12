@@ -19,6 +19,7 @@ void main() {
 
   print('isitTrue: $isitTrue1 | isitTrue: $isitTrue2 \n');
 
+  //dynamic variable = can hold any value, the variable type can change in runtime
   dynamic weakVariable = 100;
   print('WeakVariable 1: $weakVariable');
 
