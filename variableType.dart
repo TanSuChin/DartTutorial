@@ -25,4 +25,16 @@ void main() {
 
   weakVariable = 'Dart Programming';
   print('WeakVariable 2: $weakVariable');
+
+  const aConstNum = 0;
+  const aConstBool = true;
+  const aConstString = 'a constant string';
+
+  print(aConstNum);
+  print(aConstBool);
+  print(aConstString);
+
+  print(aConstBool.runtimeType);
+  print(aConstString.runtimeType);
+  print(aConstNum.runtimeType);
 }
