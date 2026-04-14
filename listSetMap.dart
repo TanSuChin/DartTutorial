@@ -45,8 +45,26 @@ void main() {
     print(chemicals.runtimeType);
   }
 
+  //hashset is a type of set 
+  /* -store unique values only
+  has no index
+  unordered
+  fast for lookup
+  ignored dulpicated values
+  just put var type <int> or <String> in list jiu can dy (become linked hash set)
+  */
   Set <String> chemicals2 = {};
   print(names.runtimeType);
 
+
+  //map
+  var gifts = {
+    //Key: Value
+    'first' : 'partridge',
+    'second' : 'turtledoves',
+    'fifth' : 'golden rings'
+  };
+
+  print(gifts['fifth']);
 }
 
