@@ -31,8 +31,13 @@ void main() {
     num -= 1;
   } while (num>0);
 
+  //if the if condition is true, continue back to for
+  //until the if condition is false baru go next line print
+  //if put break, then will go next line instead of continue back to previous line
   for (var i = 0; i < 10; ++i) {
     if (i % 2 == 0) continue;
     print("Odd: $i");
   }
+
+  
 }
